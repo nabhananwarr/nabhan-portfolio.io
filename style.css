@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: system-ui, sans-serif;
+  background: #0f172a;
+  color: #e5e7eb;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 3rem;
+  background: #020617;
+}
+
+.nav a {
+  color: #93c5fd;
+  margin-left: 1rem;
+  text-decoration: none;
+}
+
+.hero {
+  padding: 6rem 3rem;
+}
+
+.content {
+  padding: 3rem;
+}
+
+.card {
+  background: #020617;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 12px;
+}
+
+.sub {
+  color: #94a3b8;
+}
