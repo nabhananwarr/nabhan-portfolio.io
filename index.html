@@ -1,34 +1,161 @@
+// =========================
+// GitHub Pages Portfolio
+// Repo name: nabhananwar.github.io
+// =========================
+
+/* =========================
+   index.html
+   ========================= */
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Home</title>
-    <link rel="stylesheet" href="webstyle.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nabhan Anwar</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="experience.html">Skills & Experience</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="designs.html">Designs</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section id="intro">
-            <div class="name">
-                <h1>Nabhan Anwar</h1>
-                <img src="pic.jpeg" class="pic" alt="Nabhan Anwar">
-            </div>
-            <h3>Hey there! Welcome to my Personal Portfolio.</h3>
-        </section>
-        <section id="about me">
-            <h2>About me</h2>
-            <p>I am a fourth-year Computer Science Honours & Co-op student at the University of Guelph. I am an international student born and raised in Abu Dhabi, UAE with a Bangladeshi ethnicity. I am passionate about software development and creating fun things. I had my first co-op work term at the University of Guelph within CCS (Computing & Communications Services) as an Email and Collaboration Support Co-op. In my free time, I love to cook and crochet while wathcing TV shows. I've worked on couple of projects in my academic journey, which I've showcased in this portfolio. I am also passionate about human rights, I volunteer on campus to advocate and help those in need. Feel free to reach out or connect with me!</p>
-        </section>
-    </main>
-    <footer>
-        <p>Contact me at: <a href="mailto:nanwar@uoguelph.ca">nanwar@uoguelph.ca</a></p>
-        <p>LinkedIn: <a href="https://linkedin.com/in/nabhananwar">nabhananwar</a> | GitHub: <a href="https://github.com/nabhananwarr">nabhananwarr</a></p>
-    </footer>
+  <header class="nav">
+    <h1>Nabhan Anwar</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="assets/resume.pdf" target="_blank">Resume</a>
+      <a href="https://linkedin.com/in/nabhananwar" target="_blank">LinkedIn</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Computer Science Honours Co-op Student</h2>
+    <p>
+      I am a University of Guelph student with experience across cybersecurity, web platforms,
+      digital systems, and campus operations. I enjoy solving practical problems at the
+      intersection of technology, data, and people.
+    </p>
+  </section>
+
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>
+      I am a Computer Science Honours Co-op student at the University of Guelph with a minor in Sociology.
+      Through multiple on-campus co-op roles, leadership positions, and volunteer work, I have supported
+      academic departments, operational teams, and student communities while building strong technical,
+      organizational, and communication skills.
+    </p>
+  </section>
+
+  <section id="experience" class="section">
+    <h2>Experience</h2>
+
+    <div class="card">
+      <h3>IT Support Analyst (Email and Collaboration Support) Co-op</h3>
+      <span>University of Guelph | Fall 2023</span>
+      <ul>
+        <li>Proficiently managed the Office 365 environment at the University of Guelph campus by employing Microsoft Administrator tools to consistently meet service-level agreements</li>
+        <li>Achieved a 20% reduction in issue resolution times by delivering prompt client support and troubleshooting by resolving Level 2 services and incidents using FootPrints ticketing, elevating client satisfaction</li>
+        <li>Authored and updated technical training materials, enhancing user self-service, and facilitating knowledge-sharing for peers and future co-op students</li>
+        <li>Collaborated effectively with cross-functional teams within campus to offer clients the best available solutions and exceptional service using Microsoft Teams and FootPrints</li>
+        <li>Successfully executed the mass conversion of shared mailbox accounts and transition of Microsoft Stream to SharePoint, resulting in enhanced email efficiency, seamless video sharing and streaming, and significantly improving overall organizational communication and data management</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>Web Content Management Specialist Co-op</h3>
+      <span>University of Guelph | Summer 2024</span>
+      <ul>
+        <li>Leveraged and utilized CMS platforms (Drupal and Content Hub) to overhaul web content and workflows, resulting in a 40% increase in user engagement by enhancing site functionality and user experience</li>
+        <li>Led the migration of over 20 web pages to the University’s Content Hub platform, coordinating with cross-functional teams to ensure seamless updates and adherence to deadlines</li>
+        <li>Applied HTML/CSS to enhance site aesthetics and functionality to ensure a modern user-friendly interface</li>
+        <li>Enhanced usability and ensured AODA compliance by applying accessibility best practices and utilizing Siteimprove to achieve a 95% compliance rate</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>Marketing and Development Assistant Co-op</h3>
+      <span>University of Guelph | Winter 2025</span>
+      <ul>
+        <li>Developed and maintained over 30 web pages using Content Hub CMS and SharePoint, aligning with web accessibility standards (AODA/WCAG)</li>
+        <li>Tracked and analyzed performance metrics for email and social campaigns using Sprout Social and MailChimp, generating insights to optimize engagement strategies</li>
+        <li>Leveraged Google Analytics 4 to analyze website performance and user behavior, identifying high-traffic pages and product conversion trends while optimizing site content for SEO to improve search visibility</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <h2>Projects and Certifications</h2>
+    <div class="card">
+      <h3>Forage: Mastercard Cybersecurity Virtual Experience (KPMG)</h3>
+      <ul>
+        <li>Performed a cyber incident response assessment, identifying containment strategies and remediation steps</li>
+        <li>Analyzed datasets to detect operational inefficiencies and risks, and presented findings in structured security reports</li>
+        <li>Designed executive-level presentations and architecture diagrams for cloud-based solutions</li>
+      </ul>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© Nabhan Anwar</p>
+  </footer>
 </body>
 </html>
+
+/* =========================
+   style.css
+   ========================= */
+body {
+  font-family: Inter, Arial, sans-serif;
+  margin: 0;
+  background: #f4f6f8;
+  color: #1f2933;
+  line-height: 1.6;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 60px;
+  background: white;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #2563eb;
+  font-weight: 500;
+}
+
+.hero {
+  padding: 80px 60px;
+  background: linear-gradient(135deg, #2563eb, #4f46e5);
+  color: white;
+}
+
+.section {
+  padding: 60px;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.06);
+}
+
+.card span {
+  display: block;
+  font-size: 0.9rem;
+  color: #6b7280;
+  margin-bottom: 12px;
+}
+
+.footer {
+  text-align: center;
+  padding: 30px;
+  background: #111827;
+  color: #9ca3af;
+}
+
